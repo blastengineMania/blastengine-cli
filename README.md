@@ -25,7 +25,7 @@ $ be init -k YOUR_API_KEY \
 トランザクションメール（即時発送メール）用のテンプレートの作成します。
 
 ```
-$ be transaction create
+$ be t create
 メールを /path/to/2023-04-14-17-35-46.mdに保存しました。編集してください。
 ```
 
