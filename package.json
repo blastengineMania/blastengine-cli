@@ -1,0 +1,29 @@
+{
+  "name": "blastengine-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for blastengine",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "be": "./dist/be.js",
+    "be-init": "./dist/be-init.js",
+    "be-t": "./dist/be-t.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blastengine": "^1.7.4",
+    "commander": "^10.0.0",
+    "parse-md": "^3.0.3",
+    "strftime": "^0.10.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/strftime": "^0.9.4",
+    "ts-node": "^10.9.1"
+  }
+}
